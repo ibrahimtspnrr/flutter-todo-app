@@ -43,7 +43,7 @@ class _HomeState extends State<Home> {
                         bottom: 20,
                       ),
                       child: Text(
-                        "Yapılacaklar Listesi",
+                        "ToDo List",
                         style: TextStyle(
                           fontSize: 30,
                           fontWeight: FontWeight.w500,
@@ -91,7 +91,7 @@ class _HomeState extends State<Home> {
                 child: TextField(
                controller:  _todoController,
                   decoration: InputDecoration(
-                    hintText: "Yeni görev ekle",
+                    hintText: "Add a new todo item ",
                     border: InputBorder.none
 
                   ),
@@ -189,7 +189,7 @@ class _HomeState extends State<Home> {
             minWidth: 25,
           ),
           border: InputBorder.none,
-          hintText: "Görev Ara",// içerideki text belki değişebilir
+          hintText: "Search",// içerideki text belki değişebilir
           hintStyle: TextStyle(color: tdGrey),
 
 
